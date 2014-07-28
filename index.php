@@ -19,6 +19,8 @@ error_reporting(11);
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="http://gdata.youtube.com/feeds/base/users/BenjaminApple/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile"/>
+		
 		<link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
 		<link rel="icon" type="image/png" href="/img/favicon.png"/>
 		
