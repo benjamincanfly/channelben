@@ -10,6 +10,7 @@ error_reporting(11);
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
+	<base target="_blank">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Channel Ben</title>
@@ -20,7 +21,7 @@ error_reporting(11);
 
 		<link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
 		<link rel="icon" type="image/png" href="/img/favicon.png"/>
-
+		
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/style.css">
@@ -65,7 +66,7 @@ error_reporting(11);
 										parse_str($videoURL['query']);
 										
 										$pubTimestamp=strtotime($video->published);
-										$pubDate = strftime("%Y-%m-%d %H:%M:%S", strtotime($pubTimestamp));
+										$pubDate = strftime("%b %e", $pubTimestamp);
 										$daysAgo = (time()-$pubTimestamp)/(60*60*24);
 										
 										$ago="";
@@ -95,7 +96,7 @@ error_reporting(11);
 											echo '<div class="big_video">';
 											echo '<iframe width="640" height="360" src="//www.youtube.com/embed/'.$v.'" frameborder="0" allowfullscreen></iframe>';
 											
-											echo '<a href="http://www.youtube.com/watch?v='.$v.'" class="title">'.$video->title.'<span class="uploaded">Uploaded '.$ago.'</span></a>';
+											echo '<a href="http://www.youtube.com/watch?v='.$v.'" class="title">'.$video->title.'<span class="uploaded">Uploaded '.$ago.' ('.$pubDate.')</span></a>';
 											
 											echo '</div>';
 											
@@ -117,7 +118,7 @@ error_reporting(11);
 											// ?list='.$thisID.
 											echo '</div>';
 											
-											echo '<a href="http://www.youtube.com/watch?v='.$v.'" class="title">'.$video->title.'<span class="uploaded">Uploaded '.$ago.'</span></a>';
+											echo '<a href="http://www.youtube.com/watch?v='.$v.'" class="title">'.$video->title.'<span class="uploaded">Uploaded '.$ago.' ('.$pubDate.')</span></a>';
 											
 											echo '</div>';
 											

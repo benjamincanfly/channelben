@@ -113,9 +113,9 @@
 		#videos .playlist .big_video a span.uploaded {
 			display: block;
 			margin-top: -2px;
-			color: #666;
-			font-size: 13px;
-			font-style: italic;
+			font-size: 14px;
+			//font-style: italic;
+			color: #444;
 			font-weight: normal;
 		}
 		
@@ -123,8 +123,8 @@
 			display: block;
 			margin-top: -2px;
 			color: #666;
-			font-size: 11px;
-			font-style: italic;
+			font-size: 12px;
+			//font-style: italic;
 			font-weight: normal;
 		}
 		
