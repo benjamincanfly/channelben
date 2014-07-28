@@ -68,17 +68,21 @@ error_reporting(11);
 										parse_str($videoURL['query']);
 										
 										$pubTimestamp=strtotime($video->published);
-										$pubDate = strftime("%b %e", $pubTimestamp);
+										$pubDate = strftime("%B %e", $pubTimestamp);
+										$pubYear = strftime("%Y", $pubTimestamp);
 										$daysAgo = (time()-$pubTimestamp)/(60*60*24);
 										
 										$ago="";
 										
 										if($daysAgo>300){
 											$ago="last year";
+											$pubDate.=" ".$pubYear;
 										} else if ($daysAgo>120){
-											$ago="a couple few ago";
+											$ago="a few months ago";
+											$pubDate.=" ".$pubYear;
 										} else if ($daysAgo>60){
 											$ago="a couple months ago";
+											$pubDate.=" ".$pubYear;
 										} else if ($daysAgo>21){
 											$ago="a few weeks ago";
 										} else if ($daysAgo>10){
