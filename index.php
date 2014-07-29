@@ -35,7 +35,7 @@ error_reporting(0);
 	
 	<meta property="og:image" content="http://www.channelben.com/img/channel_ben_og_square.jpg">
 	<meta property="og:image:type" content="image/jpeg">
-	<meta property="og:image:width" content="1920">
+	<meta property="og:image:width" content="1080">
 	<meta property="og:image:height" content="1080">
 	
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
