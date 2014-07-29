@@ -49,6 +49,7 @@ error_reporting(0);
         <!-- Add your site or application content here -->
 
 		<div id="everything">
+			<a href="http://www.channelben.com" id="logo"><img src="/img/channelben.png"/></a>
 			<div id="header">Hey idiot! I'm <a href='http://www.twitter.com/benjaminapple'>Benjamin Apple</a> and I upload a video to my <a href="http://www.youtube.com/benjaminapple">YouTube channel</a> Monday through Friday every single week. <a href="mailto:benjamincanfly@gmaiml.com">Email me!</a></div>
 			
 			<div id="content">
