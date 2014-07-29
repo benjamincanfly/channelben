@@ -33,7 +33,7 @@ error_reporting(0);
 	<meta property="og:description" content="Welcome, idiot! My name is Benjamin Apple and I post a original, funny YouTube videos every single weekday. Watch and subscribe!" />
 	<meta property="og:url" content="http://www.channelben.com" />
 	
-	<meta property="og:image" content="http://www.channelben.com/img/channel_ben_og.jpg">
+	<meta property="og:image" content="http://www.channelben.com/img/channel_ben_og_square.jpg">
 	<meta property="og:image:type" content="image/jpeg">
 	<meta property="og:image:width" content="1920">
 	<meta property="og:image:height" content="1080">
