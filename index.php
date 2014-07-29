@@ -26,11 +26,11 @@ error_reporting(0);
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Channel Ben</title>
-        <meta name="description" content="Welcome, idiot! My name is Benjamin Apple and I post a original, funny YouTube videos every single weekday. Watch and subscribe!">
+        <meta name="description" content="Welcome, idiot! My name is Benjamin Apple and I post original, funny YouTube videos every single weekday. Watch and subscribe!">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="Channel Ben" />
 	<meta property="og:type" content="website" />
-	<meta property="og:description" content="Welcome, idiot! My name is Benjamin Apple and I post a original, funny YouTube videos every single weekday. Watch and subscribe!" />
+	<meta property="og:description" content="Welcome, idiot! My name is Benjamin Apple and I post original, funny YouTube videos every single weekday. Watch and subscribe!" />
 	<meta property="og:url" content="http://www.channelben.com" />
 	
 	<meta property="og:image" content="http://www.channelben.com/img/channel_ben_og_square.jpg">
