@@ -60,7 +60,7 @@ error_reporting(0);
 
 		<div id="everything">
 			<a href="http://www.channelben.com" id="logo"><img src="/img/channelben.png"/></a>
-			<div id="header">Welcome, idiot! I'm <a href='http://www.twitter.com/benjaminapple'>Benjamin Apple</a> and I post original, funny videos on my <a href="http://www.youtube.com/benjaminapple">YouTube channel</a> Monday through Friday every single week. <a href="mailto:benjamincanfly@gmaiml.com">Email me!</a></div>
+			<div id="header">Welcome, idiot! I'm <a href='http://www.twitter.com/benjaminapple'>Benjamin Apple</a> and I post original, funny videos on my <a href="http://www.youtube.com/benjaminapple">YouTube channel</a> Monday through Friday every single week. <a href="mailto:benjamincanfly@gmail.com">Email me!</a></div>
 			
 			<div id="content">
 					<div id="text">
